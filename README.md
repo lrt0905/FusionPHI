@@ -50,8 +50,9 @@ _使用biopython识别VHM1426基因组基序.py
 
 * kmer_protein_features.csv: An example of kmer and protein features.
 * merge_phage_host_motif.py: You can use this to merge phage motif features and host motif features.
-* modal.py: FusionPHI modal code, including training process and validating process.
+* modal.py: FusionPHI model code, including training process and validating process.
 * motif_feature_example.csv: An example of motif features.
+You should get all the features that the model need. When you get the same feature form as the sample file, you can input it into the "modal.py" to train your model.
 ## Contact
 Please contact Li(2542479361@qq.com or GitHub Issues) with any questions, concerns or comments.
 
