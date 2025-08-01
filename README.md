@@ -42,7 +42,13 @@ We sugguset you use the command below to extract the motif sequence of all fasta
 _使用biopython识别VHM1426基因组基序.py
 ```
 ## Usage
-
+* data_pos_neg_output.csv: The csv file of dataset.
+* get_kmer_physico.py: Use this to generate kmer and physico feature.
+* get_motif.py: Use this to recognize moitf sequence (include biopython analysis)
+* kmer_protein_features.csv: An example of kmer and protein features.
+* merge_phage_host_motif.py: You can use this to merge phage motif features and host motif features.
+* modal.py: FusionPHI modal code, including training process and validating process.
+* motif_feature_example.csv: An example of motif features.
 ## Contact
 Please contact Li(2542479361@qq.com or GitHub Issues) with any questions, concerns or comments.
 
