@@ -39,7 +39,7 @@ meme host_genes/NZ_CP025774.fasta -dna -time 18000 -mod anr -nmotifs 5 -minw 5 -
 ```
 We sugguset you use the command below to extract the motif sequence of all fasta files in the folder at one time
 ```
-_使用biopython识别VHM1426基因组基序.py
+get_motif.py
 ```
 ## Usage
 * data_pos_neg_output.csv: The csv file of dataset.
