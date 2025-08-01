@@ -56,6 +56,8 @@ _使用biopython识别VHM1426基因组基序.py
 
 * motif_feature_example.csv: An example of motif features.
 
+* dataset: Contain the format of orf files and genome sequence files and the train/test of our modal.
+
 You should get all the features that the model need. When you get the same feature form as the sample file, you can input it into the "modal.py" to train your model.
 ## Contact
 Please contact Li(2542479361@qq.com or GitHub Issues) with any questions, concerns or comments.
