@@ -11,8 +11,9 @@ FusionPHI is a tool for phage-host interactions prediction
   | matplotlib | 3.7.2 |
   | pandas | 2.0.3 |
 
-You also need to download [MEME](https://meme-suite.org/meme/meme-software/5.5.5/meme-5.5.5.tar.gz) toolkit to get motif sequences.
-After downloading, use the following command to decompress this toolkit:
+You also need to install the [MEME Suite](https://meme-suite.org/meme/) toolkit to identify DNA motif sequences. 
+FusionPHI was developed and tested using MEME Suite version 5.5.5. 
+The MEME version is not a strict dependency, and more recent versions (e.g., MEME Suite 5.5.9) are expected to be compatible because FusionPHI relies on the standard motif discovery functions provided by MEME. The following command is listed to replicate the actual processing procedure. It uses the commands that are compatible with meme 5.5.5 as an example.
 ```
 tar zxf meme-5.5.5.tar.gz
 ```
@@ -46,7 +47,7 @@ get_motif.py
 
 * get_kmer_physico.py: Use this to generate kmer and physico feature.
 
-* get_motif.py: Use this to recognize moitf sequence (include biopython analysis)
+* get_motif.py: Use this to recognize motif sequence (include biopython analysis)
 
 * kmer_protein_features.csv: An example of kmer and protein features.
 
